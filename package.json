@@ -1,0 +1,33 @@
+{
+	"name": "logger",
+	"version": "0.1.0",
+	"description": "Takes urls on the command line and screen scrapes data from those webpages into a CouchDB instance",
+	"maintainers": [
+		{
+			"name": "Paul Sweeney",
+			"email": "paul@8-bitdesign.com",
+			"web": "http://www.8-bitdesign.com" 
+		} 
+	],
+	"bugs": {
+		"mail": "paul@8-bitdesign.com",
+		"web": "https://github.com/8bitDesigner/logger/issues"
+	},
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "http://www.opensource.org/licenses/mit-license.php"
+		} 
+	],
+	"repositories": [
+		{
+			"type": "git",
+			"url": "https://github.com/8bitDesigner/logger"
+		} 
+	],
+	"dependencies": {
+		"cradle": "0.5.5",
+		"jsdom": "0.2.0",
+		"webworker": "0.8.4"
+	}
+}
